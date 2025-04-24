@@ -7,7 +7,7 @@ int main(){
     cout << "Enter the number : ";
     cin >> n;
    
-    for(i = 2 ; i < 7 ; i++){
+    for(i = 2 ; i < n ; i++){
         if( n % i == 0){
             cout << "it's not a prime number" << endl;
         }else{
